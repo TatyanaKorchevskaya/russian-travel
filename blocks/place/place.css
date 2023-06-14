@@ -1,0 +1,31 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, auto));
+  column-gap: 40px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 440px));
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 352px));
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-areas:
+      "h2"
+      "website"
+      "image"
+      "paragraphs";
+    row-gap: 32px;
+  }
+}

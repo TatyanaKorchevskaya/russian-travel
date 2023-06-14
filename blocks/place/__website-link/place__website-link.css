@@ -1,0 +1,22 @@
+
+
+.place__website-link {
+    max-width: 456px;
+    max-height: 22px;
+    margin: 0;
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    /* identical to box height, or 122% 22px*/
+  
+    text-decoration-line: underline;
+  
+    color: #ffffff;
+    transition: opacity 0.2s linear 0s;
+  }
+  
+  .place__website-link:hover {
+    opacity: 0.8;
+  }
