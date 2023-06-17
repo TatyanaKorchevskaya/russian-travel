@@ -7,7 +7,14 @@
   text-decoration: none;
 
   color: #ffffff;
+  transition: opacity 0.2s linear 0s;
 }
+
+
+.footer__link:hover {
+  opacity: 0.8;
+}
+
 
 @media screen and (max-width: 767px) {
   .footer__link {

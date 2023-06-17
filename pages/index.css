@@ -10,7 +10,6 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
-@import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__content/intro__content.css);
 @import url(../blocks/intro/__title/intro__title.css);

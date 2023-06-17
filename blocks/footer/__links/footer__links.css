@@ -2,12 +2,7 @@
   display: flex;
   gap: 18px;
   margin: 0;
-  transition: opacity 0.2s linear 0s;
-  }
-
-  .footer__links:hover {
-    opacity: 0.8;
-  }
+}
 
 @media screen and (max-width: 767px) {
   .footer__links {
